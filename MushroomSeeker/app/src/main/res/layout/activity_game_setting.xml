@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jimmy.mushroomseeker.GameSettingActivity"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:id="@+id/tvSetting"
+        android:text="@string/SettingText"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_below="@+id/tvSetting"
+        android:layout_centerHorizontal="true">
+    <TextView
+        android:id="@+id/boardSizeId"
+        android:text="@string/BoardSizeText"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+    <Spinner
+        android:id="@+id/board_size_spinner"
+        android:layout_weight="6"
+        android:layout_width="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linearlayout1">
+        <TextView
+            android:id="@+id/mineSizeId"
+            android:text="@string/MineSizeText"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/mine_size_spinner"
+            android:layout_weight="6"
+            android:layout_width="0dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/resetGamesPlayed"
+        android:text="@string/resetGamesPlayedText"
+        android:background="@drawable/roundbutton"
+        android:layout_below="@id/linearlayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MushroomSeeker</string>
+    <string name="skip">Skip...</string>
+    <string name="BoardSizeText">Board Size:</string>
+    <string name="MineSizeText"># Mines:</string>
+    <string name="SettingText">Settings</string>
+    <string name="resetGamesPlayedText">Reset Games Played</string>
+    <string name="helpDescription">MushroomSeeker is an application created by Jimmy Tran in Simon Fraser University\'s  <![CDATA[<a href="https://www.cs.sfu.ca/CourseCentral/276/bfraser/index.html">CMPT 276 class.</a>]]>\n
+    The objective of the game is to find all the mushrooms that are hiding in the bushes. The numbers on the bush indicate how many mushrooms are in it\'s corresponding row and column.\n
+        The number of bushes and mushrooms can be changed in the settings as well as the lowest scan needed to complete the game.\n\n\n\n
+        All images are used from <![CDATA[<a href="http://maplestory.nexon.net/">Maplestory.</a>]]>\n
+        The sounds used are all from <![CDATA[<a href="https://freesound.org/">freesound.org</a>]]>
+    </string>
+    <string name="helpText">Help</string>
+    <string name="winningMessage">Congratulation You\'ve Won!</string>
+    <string-array name="board_size">
+        <item>4 x 6</item>
+        <item>5 x 10</item>
+        <item>6 x 15</item>
+    </string-array>
+    <string name="return_to_menu">Return to Main Menu.</string>
+    <string name="help_button">Help</string>
+    <string name="options_button">Options</string>
+    <string name="play_button">Play</string>
+    <string-array name="mine_size">
+        <item>6 mines</item>
+        <item>10 mines</item>
+        <item>15 mines</item>
+        <item>20 mines</item>
+    </string-array>
+</resources>
